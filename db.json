@@ -1,0 +1,18 @@
+{
+  "users": [
+    {
+      "id": "2d5c",
+      "email": "danik.shaken@gmail.com",
+      "password": "1234567890",
+      "number": "12345567890",
+      "darkmode": false
+    },
+    {
+      "id": "56fe",
+      "email": "first@gmail.com",
+      "password": "1234567890",
+      "number": "1234567890",
+      "darkmode": false
+    }
+  ]
+}

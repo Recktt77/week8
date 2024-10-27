@@ -1,0 +1,37 @@
+.to-login{
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.to-login button{
+    width: fit-content;
+    margin: 0;
+}
+.loginning {
+    max-width: 800px;
+    min-width: 400px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    background-color: rgb(221, 237, 250);
+    border-radius: 5px;
+    padding: 30px;
+    box-shadow: 2px 3px 10px rgb(141, 187, 228);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.loginning.hide {
+    opacity: 0;
+    transform: translateY(-20px);
+}
+
+.loginning:not(.hide) {
+    opacity: 1;
+    transform: translateY(0);
+}
