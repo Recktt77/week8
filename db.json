@@ -5,14 +5,54 @@
       "email": "danik.shaken@gmail.com",
       "password": "1234567890",
       "number": "12345567890",
-      "darkmode": false
+      "darkmode": true,
+      "isAdmin": true
     },
     {
       "id": "56fe",
       "email": "first@gmail.com",
       "password": "1234567890",
       "number": "1234567890",
-      "darkmode": false
+      "darkmode": false,
+      "isAdmin": false
+    },
+    {
+      "id": "9a13",
+      "email": "second@gmail.com",
+      "password": "1234567890",
+      "number": "1234567890",
+      "darkmode": false,
+      "isAdmin": false
+    }
+  ],
+  "courses": [
+    {
+      "name": "BatMen",
+      "subject": "Algebra",
+      "experience": "12 years",
+      "image": "images/person.png",
+      "id": "8f3b"
+    },
+    {
+      "name": "Superman",
+      "subject": "Geometry",
+      "experience": "10 years",
+      "image": "images/person.png",
+      "id": "896c"
+    },
+    {
+      "name": "Wonder Woman",
+      "subject": "Calculus",
+      "experience": "8 years",
+      "image": "images/person.png",
+      "id": "ab3a"
+    },
+    {
+      "id": "d4b0",
+      "name": "spiderMen",
+      "subject": "frontEnd",
+      "experience": "10 years",
+      "image": "images/person.png"
     }
   ]
 }
